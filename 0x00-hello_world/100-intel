@@ -1,3 +1,2 @@
 #!/bin/bash
-
 gcc $CFILE -S -o $(echo $CFILE s | tr -d ' c')

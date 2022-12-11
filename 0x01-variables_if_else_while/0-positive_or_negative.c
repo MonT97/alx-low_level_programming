@@ -6,7 +6,7 @@
 
 /**
  * main - the main function of the program
- * return: an integr
+ * Return: an integr
  */
 
 int main(void)

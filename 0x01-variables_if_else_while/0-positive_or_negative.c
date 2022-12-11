@@ -5,6 +5,10 @@
 
 /* betty style doc for function main goes there */
 
+/**
+ * main - the main function of the programe
+ */
+
 int main(void)
 {
 	int n;
@@ -12,10 +16,10 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-	if (n == 0){
+	if (n == 0) {
 		printf("%i is zero\n", n);
-	} else if (n >= 0){	
-		printf("%i is positve\n", n);
+	} else if (n >= 0) {	
+		printf("%i is positive\n", n);
 	} else {
 		printf("%i is negative\n", n);
 	}
